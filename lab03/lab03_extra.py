@@ -1,4 +1,7 @@
 """ Optional problems for Lab 3 """
+import math
+from webbrowser import get
+from xml.etree.ElementInclude import include
 
 def is_prime(n):
     """Returns True if n is a prime number and False otherwise.
@@ -11,6 +14,15 @@ def is_prime(n):
     True
     """
     "*** YOUR CODE HERE ***"
+    prime = False
+    if n==1:
+        return False
+    if is_prime(n):
+        return True
+    else:
+        
+
+
 
 def gcd(a, b):
     """Returns the greatest common divisor of a and b.
