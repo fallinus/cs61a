@@ -1,5 +1,6 @@
 """ Optional problems for Lab 3 """
 import math
+from pickle import FALSE
 from webbrowser import get
 from xml.etree.ElementInclude import include
 
@@ -14,13 +15,12 @@ def is_prime(n):
     True
     """
     "*** YOUR CODE HERE ***"
-    prime = False
-    if n==1:
-        return False
-    if is_prime(n):
-        return True
-    else:
+    i = 2
+    while n%i != 0:
+        i += 1
         
+
+
 
 
 
